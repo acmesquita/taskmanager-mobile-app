@@ -1,0 +1,15 @@
+.page{
+    background-color: whitesmoke;
+}
+
+.form{
+    background-color: white;
+    padding: 10px;
+    margin: 25px; 
+}
+
+Image{
+    width:150;
+    height:100;
+    margin: 20px;
+}
