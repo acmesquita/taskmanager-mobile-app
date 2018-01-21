@@ -11,7 +11,7 @@ export class AppComponent {
 
     public constructor (private tokenService: NSAngular2TokenService){
         this.tokenService.init({
-            apiBase: "http://urlaplicacao",
+            apiBase: "http://192.168.0.31:3000",
             globalOptions:{
                 headers: {
                     'Content-Type': "application/json",
@@ -19,5 +19,10 @@ export class AppComponent {
                 }
             }
         });
+
+        this.tokenService.signIn({
+            email: "catha.ana.1994@gmail.com",
+            password: "catha1530"
+        }).subscribe(res => console.dir(res))
     }
 }
