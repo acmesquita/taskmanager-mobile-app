@@ -20,9 +20,5 @@ export class AppComponent {
       }
     });
 
-    this.tokenService.signIn({
-      email: "catha.ana.1994@gmail.com",
-      password: "catha1530"
-    }).subscribe(res => console.dir(res))
   }
 }
