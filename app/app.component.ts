@@ -19,6 +19,5 @@ export class AppComponent {
         }
       }
     });
-    this.tokenService.signOut().subscribe();
   }
 }
