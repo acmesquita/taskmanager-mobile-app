@@ -11,14 +11,10 @@ import { AuthService } from "../shared/auth.service";
 
 export class HomeComponent{
 
-    public constructor(private tokenService:AuthService,
-                       private router: Router){
-
+    public constructor(public tokenService:AuthService,
+                       public router: Router){
     }
 
-    public signInUser(){
-        
-    }
 
     public signOutUser(){
         this.tokenService.signOut().subscribe(

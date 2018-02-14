@@ -8,6 +8,12 @@
     margin: 25px; 
 }
 
+.formErrors{
+    background-color: #f4d7d8;
+    margin: 20px;
+    padding: 10px;
+}
+
 Image{
     width:150;
     height:100;
