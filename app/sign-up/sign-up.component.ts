@@ -8,7 +8,8 @@ import { User } from "../shared/user.model";
 @Component({
     selector : 'sign-up',
     moduleId: module.id,
-    templateUrl : './sign-up.component.html'
+    templateUrl : './sign-up.component.html',
+    styleUrls: ['./sign-up.component.css']
 })
 
 export class SignUpComponent{
